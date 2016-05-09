@@ -1,5 +1,10 @@
 <?php
 
+/*
+ * Copyright ©2016 Michael D Johnson
+ * Licensed under the MIT license (see LICENSE.md)
+ */
+
 namespace Test\It\Out;
 
 use Really\Long\Sample\NestedNamespace\To\Just\Really\Test\Things\Out\MyClass;
