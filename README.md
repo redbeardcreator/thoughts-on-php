@@ -68,15 +68,11 @@ as broad strokes.
 Licensing
 =========
 
-All text documents (generally with the `.md` extension) are licensed as
-[CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/). Briefly, this means you're free to
-use and change these documents, but you must give me credit and if you make changes, you must
-license the changes under the same license.
+See [LICENSE.md](LICENSE.md) for licensing details. It contains licensing info for the entire
+repository.
 
-All code files are licensed as [MIT](https://opensource.org/licenses/MIT) (see
-[LICENSE.md](../blob/master/LICENSE.md) for the local version). There should be a copyright notice
-at the top of each code file.
-
-As an exception to both the above, any code embedded in the text documents should be considered as
-public domain, technically licensed using [the Unlicense](http://unlicense.org/UNLICENSE). This
-allows the use of said code via copy/paste without having to worry about the licensing.
+This document is licensed as [CC-BY-SA-4.0](LICENSE.md#cc-by-sa-40). Briefly, this means you're free
+to use and change these documents, but you must give me credit and if you make changes, you must
+license the changes under the same license. As an exception, any code embedded in this document
+should be considered as public domain using [the Unlicense](LICENSE.md#the-unlicense). This allows
+the use of said code via copy/paste without having to worry about the licensing.
