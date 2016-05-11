@@ -32,13 +32,13 @@ use My\Namepsaced\Object;
 $di->set(Object::class, Object::class);
 ```
 
-But I was concerned that this will acutally autoload the class. That's not a problem if you only
+But I was concerned that this will actually autoload the class. That's not a problem if you only
 have one or two or even a few classes. But the project I'm working on has dozens, working it's way
 to hundreds. If defining dependency injection loaded *all* of those, even if only one or two are
 needed, it would seriously hurt the performance of the project.
 
-So I did a little ad hoc test and determined that the classes were *not* autoloaded. The value of
-`Object::class` was determined strictly from the namne. But I got curious. It looks nicer, should be
+So I did a little _ad hoc_ test and determined that the classes were *not* autoloaded. The value of
+`Object::class` was determined strictly from the name. But I got curious. It looks nicer, should be
 easier to maintain, and IDEs should be able to autocomplete it. But is it faster? Not that it really
 matters, I'm going to use it. But I was curious.
 
