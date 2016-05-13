@@ -42,7 +42,7 @@ So I did a little _ad hoc_ test and determined that the classes were *not* autol
 easier to maintain, and IDEs should be able to autocomplete it. But is it faster? Not that it really
 matters, I'm going to use it. But I was curious.
 
-See `tests/classname.php`.
+See `experiments/classname.php`.
 
 Results for 10,000,000 iterations on PHP 5 (5.6.21) and PHP 7 (7.0.6) on my laptop, run with 5
 iterations, throwing out the highest and lowest times.
